@@ -20,3 +20,6 @@ The spider iterates over a table containing every game outcome in the 2018/19 se
 
 
 Once the data for an iteration is collected it is appended to two dictionaries one containing the player names the other the positions. After the iterations are completed (all 380 games are collected) the dictionaries are formatted into two pandas dataframes which are then saved to .csv files. A players name in the name .csv has a position in the position .csv at the same index and column as their name. 
+
+
+The spider can easily scrape different seasons by changing the initial betstudy_url variable to another season.
