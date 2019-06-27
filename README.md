@@ -1,13 +1,13 @@
 # Premier_League_Lineup_Data
 Jupyter Notebook containing a spider for betstudy.com that scrapes lineup data for each game in the Premier League.
 
-Python Libraries Needed:
+### Python Libraries Needed:
 
 requests -- Used to get html code from the betstudy.com website
 
 bs4      -- Used to parse the html
 
-Python Libraries Recommended:
+### Python Libraries Recommended:
 
 numpy    -- Used for null values
 
