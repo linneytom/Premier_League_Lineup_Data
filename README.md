@@ -2,13 +2,19 @@
 Jupyter Notebook containing a spider for betstudy.com that scrapes lineup data for each game in the Premier League.
 
 Python Libraries Needed:
+
 requests -- Used to get html code from the betstudy.com website
+
 bs4      -- Used to parse the html
 
 Python Libraries Recommended:
+
 numpy    -- Used for null values
+
 pandas   -- Used to format data into a .csv file
+
 tqdm     -- Used for crawling interface
+
 
 The spider iterates over a table containing every game outcome in the 2018/19 season. For every row it iterates over it travels along a hyperlink that leads it to the lineup of each team for that specific game, aswell as the referees. The spider then iterates over the tables containg the lineup data and follows another hyperlink to the players profile page. From their the spider scrapes the players full name and position, it does this for the referees aswell but doesnt take their position. 
 
